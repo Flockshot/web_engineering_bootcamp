@@ -29,3 +29,9 @@ print(my_tuple * 3)
 print(my_tuple.count(9))
 print(my_tuple.index(9))
 print(my_tuple)
+
+x = (5) # int
+y = (5,) # tuple
+z = (5,6) # tuple
+
+
