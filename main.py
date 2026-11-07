@@ -35,3 +35,13 @@ y = (5,) # tuple
 z = (5,6) # tuple
 
 
+x = int(input("Enter your start number: "))
+y = int(input("Enter your end number: "))
+
+if x < y:
+    for z in range(x, y+1):
+        if z % 2 == 0:
+            print(f"{z} is even")
+        else:
+            print(f"{z} is odd")
+
