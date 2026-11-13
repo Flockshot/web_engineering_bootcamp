@@ -1,5 +1,7 @@
 # Question 1
 def grade(marks):
+    if marks < 0 or marks > 100:
+        return "Invalid marks"
     if marks >= 80:
         return "A"
     elif marks >= 60:
