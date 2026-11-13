@@ -46,10 +46,28 @@ import marshal
 #         else:
 #             print(f"{z} is odd")
 
-for i in range(4):
-    while True:
-        marks = int(input(f"Enter subject {i + 1} marks: "))
-        if marks >= 0 and marks <= 100:
-            break
-        print("Invalid marks")
+# for i in range(4):
+#     while True:
+#         marks = int(input(f"Enter subject {i + 1} marks: "))
+#         if marks >= 0 and marks <= 100:
+#             break
+#         print("Invalid marks")
+
+class Test1:
+    def __init__(self):
+        self.print_me()
+
+    def print_me(self):
+        print("Parent")
+
+class Test2(Test1):
+
+    def print_me(self):
+        print("Child")
+
+
+
+
+
+
 
