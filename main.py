@@ -66,6 +66,12 @@ class Test2(Test1):
         print("Child")
 
 
+t1 = Test1()
+t2 = Test2() # Test2 Child uses init of parent but inside init it uses child func.
+
+my_dict = {"name":"S", "age": 20, "city": "New York"}
+print(my_dict)
+del my_dict["name"] # To delete.
 
 
 
